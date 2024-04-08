@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Iter.cpp" />
     <ClCompile Include="OOp.cpp" />
+    <ClCompile Include="Stroka.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Iter.h" />
+    <ClInclude Include="Stroka.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
