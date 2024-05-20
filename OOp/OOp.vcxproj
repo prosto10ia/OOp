@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Iter.cpp" />
     <ClCompile Include="OOp.cpp" />
     <ClCompile Include="Stroka.cpp" />
   </ItemGroup>

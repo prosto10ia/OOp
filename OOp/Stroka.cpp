@@ -1,15 +1,15 @@
 #include "Iter.h"
 
 void strOut() {
-    List<char> stroka;
-    stroka.add('i');
-    stroka.add('m');
-    stroka.add(' ');
-    stroka.add('s');
-    stroka.add('t');
-    stroka.add('r');
+    List<char> str;
+    str.add('i');
+    str.add('m');
+    str.add(' ');
+    str.add('s');
+    str.add('t');
+    str.add('r');
 
-    for (auto i = stroka.begin(); i != stroka.end(); ++i) {
+    for (auto i = str.begin(); i != str.end(); i++) {
         std::cout << *i << std::endl;
     }
 }
