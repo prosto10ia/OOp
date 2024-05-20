@@ -1,6 +1,6 @@
 #include "Iter.h"
 
-static void strOut() {
+void strOut() {
     List<char> stroka;
     stroka.add('i');
     stroka.add('m');

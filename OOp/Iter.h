@@ -18,7 +18,7 @@ private:
 public:
     T operator*();
     Iterator<T>& operator++();
-    Iterator<T> operator++(int);
+    Iterator<T>  operator++(int);
     bool operator==(const Iterator<T>& s);
     bool operator!=(const Iterator<T>& s);
 

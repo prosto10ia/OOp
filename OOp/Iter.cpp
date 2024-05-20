@@ -50,8 +50,8 @@ public:
         return last;
     }
 
-    bool operator==(const Iterator<T>& s) { return (this->ptr == s.ptr); }
-    bool operator!=(const Iterator<T>& s) { return !(this->ptr == s.ptr); }
+    bool operator == (const Iterator<T>& s) { return (this->ptr == s.ptr); }
+    bool operator != (const Iterator<T>& s) { return !(this->ptr == s.ptr); }
 
     Iterator(Node<T>* head) {
         ptr = head;
